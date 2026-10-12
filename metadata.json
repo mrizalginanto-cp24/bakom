@@ -1,0 +1,8 @@
+{
+  "name": "Sistem Informasi Klinik Pratama Bumi Kresna",
+  "description": "Sistem informasi rekam medis, kunjungan berobat, dan monitoring rawat inap siswa Bakomsus di Klinik Pratama Bumi Kresna dengan kalkulasi durasi inap, visualisasi tren per bulan, dan cetak dokumen medis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

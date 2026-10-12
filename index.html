@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistem Informasi Klinik Pratama Bumi Kresna | Rawat Inap & Kunjungan Siswa</title>
+    <meta name="description" content="Sistem Informasi Rekam Medis & Monitoring Rawat Inap Siswa di Klinik Pratama Bumi Kresna - Bermoral, Cekatan, Cerdas." />
+    <meta property="og:title" content="Sistem Informasi Klinik Pratama Bumi Kresna" />
+    <meta property="og:description" content="Sistem Informasi Rekam Medis & Monitoring Rawat Inap Siswa di Klinik Pratama Bumi Kresna" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Inter & Cinzel for Institutional Headers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+      @media print {
+        body * {
+          visibility: hidden !important;
+        }
+        #printable-medical-document, #printable-medical-document * {
+          visibility: visible !important;
+        }
+        #printable-medical-document {
+          position: fixed !important;
+          left: 0 !important;
+          top: 0 !important;
+          width: 100% !important;
+          height: auto !important;
+          margin: 0 !important;
+          padding: 20px !important;
+          background: #ffffff !important;
+          color: #000000 !important;
+          z-index: 99999 !important;
+          box-shadow: none !important;
+          border: none !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-[#0B1120] text-slate-100 min-h-screen antialiased selection:bg-amber-500 selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
